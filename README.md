@@ -9,6 +9,12 @@ refactored and published as an independent, open-source package with clear docum
 
 A lightweight Laravel package for integrating **SEP (Saman Electronic Payment)** Internet Payment Gateway (IPG), including **pg-neo** behavior.
 
+> 📘 **Persian Documentation:**  
+> برای مطالعه راهنمای فارسی این پکیج، به فایل  
+> [README.fa.md](README.fa.md)  
+> مراجعه کنید.
+
+
 ## Features
 
 - Request Token (JSON POST)
@@ -26,7 +32,7 @@ A lightweight Laravel package for integrating **SEP (Saman Electronic Payment)**
 ## Installation
 
 ```bash
-composer require lidlike/blupay
+composer require saeidgi/blupay
 php artisan vendor:publish --tag=blupay-config
 ```
 
