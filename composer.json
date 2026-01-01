@@ -1,0 +1,26 @@
+{
+  "name": "saeidgi/blupay",
+  "description": "BluPay (SEP / pg-neo) payment gateway for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LidLike\\BluPay\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LidLike\\BluPay\\BluPayServiceProvider"
+      ],
+      "aliases": {
+        "BluPay": "LidLike\\BluPay\\Facades\\BluPay"
+      }
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10|^11|^12",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
