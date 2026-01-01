@@ -26,7 +26,7 @@
 ## نصب
 
 ```bash
-composer require lidlike/blupay
+composer require saeidgi/blupay
 php artisan vendor:publish --tag=blupay-config
 ```
 
